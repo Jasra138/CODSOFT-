@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    background: hsl(256, 100%, 97%);
+    line-height: 1.6;
+}
+
+header {
+    background: #ff6347;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+}
+
+header button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #ff6347;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: #ffa07a;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0;
+}
+
+h2 {
+    font-size: 2em;
+    color: #ff6347;
+    margin-bottom: 20px;
+}
+
+.about, .recipes, .contact {
+    padding: 60px 0;
+    background: #fdf5e6;
+}
+
+.recipes .recipe {
+    background: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.recipe h3 {
+    color: #ff6347;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
